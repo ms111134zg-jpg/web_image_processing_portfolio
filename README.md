@@ -43,7 +43,7 @@
 ├─ backend/
 │  ├─ main.py          # FastAPIエンドポイント
 │  |─ proc.py          # 画像処理コア（OpenCV）
-|  └─ __init.py
+|  └─ __init__.py
 └─ frontend/
    ├─ index.html
    └─ js/
