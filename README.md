@@ -60,7 +60,6 @@
 
 ### 依存ライブラリのインストール
 
-`requirements.txt` を用意している場合：
 ```bash
 pip install -r requirements.txt
 ```
@@ -153,7 +152,7 @@ uvicorn backend.main:app --reload --host 127.0.0.1 --port 8000
 
 ## CHANGELOG
 
-- `CHANGELOG_mod.md` を参照（Mod単位で更新履歴を記録）
+- `CHANGELOG.md` を参照（Mod単位で更新履歴を記録）
 
 ---
 
