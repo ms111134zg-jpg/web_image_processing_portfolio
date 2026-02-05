@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc 
+.venv/
+venv/
+myenv/
+.myenv/
+.env
+
+frontend/css/
+result.png
+

@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="ja">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>画像処理webアプリ</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1>画像処理webアプリ</h1>
+    <p>
+        画像をアップロードして画像処理のモードを選択後「処理」ボタンを押すと、<br>
+        処理結果が表示されます。
+    </p>
+
+    <h2>画像選択</h2>
+    <input id="input_image" type="file" accept="image/*">
+
+    <h2>処理モード選択</h2>
+    <select name="proc_mode" id="mode">
+        <option value="gray">グレースケール</option>
+        <option value="blur">ぼかし</option>
+        <option value="flip">左右反転</option>
+    </select>
+
+    <div>
+        <button id="run">実行</button>
+        <span id="status"></span>
+    </div>
+    
+    <div id="error"></div>
+
+    <div><img id="input_preview" width="320" alt="入力画像プレビュー"></div>
+    <div><img id="result_preview" width="320" alt="処理結果プレビュー"></div>
+    
+
+
+    <script src="js/main.js" defer></script>
+</body>
+</html>
